@@ -1,0 +1,16 @@
+{
+    "2023.12345": {
+        "title": "Understanding Neural Network Interpretability Through Attention Mechanisms",
+        "authors": ["Alice Johnson", "Bob Smith"],
+        "summary": "This paper explores how attention mechanisms in transformer models can be used to provide interpretable insights into neural network decision-making processes...",
+        "pdf_url": "https://arxiv.org/pdf/2023.12345.pdf",
+        "published": "2023-05-15"
+    },
+    "2023.67890": {
+        "title": "LIME and SHAP: A Comparative Analysis for Model Interpretability",
+        "authors": ["Carol Davis", "David Wilson"],
+        "summary": "We present a comprehensive comparison of LIME and SHAP methods for explaining machine learning model predictions...",
+        "pdf_url": "https://arxiv.org/pdf/2023.67890.pdf",
+        "published": "2023-08-22"
+    }
+}

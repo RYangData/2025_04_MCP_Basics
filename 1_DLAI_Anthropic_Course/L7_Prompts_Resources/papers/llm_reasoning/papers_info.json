@@ -1,0 +1,16 @@
+{
+    "2024.11111": {
+        "title": "Chain-of-Thought Reasoning in Large Language Models",
+        "authors": ["Emma Thompson", "Frank Miller"],
+        "summary": "This work investigates how chain-of-thought prompting enables large language models to perform complex reasoning tasks...",
+        "pdf_url": "https://arxiv.org/pdf/2024.11111.pdf",
+        "published": "2024-01-10"
+    },
+    "2024.22222": {
+        "title": "Emergent Reasoning Capabilities in Multi-Modal Language Models",
+        "authors": ["Grace Lee", "Henry Brown"],
+        "summary": "We explore how multi-modal large language models develop reasoning capabilities across text and image domains...",
+        "pdf_url": "https://arxiv.org/pdf/2024.22222.pdf",
+        "published": "2024-03-18"
+    }
+}

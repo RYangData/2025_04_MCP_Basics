@@ -1,0 +1,79 @@
+{
+  "2208.08263v1": {
+    "title": "Multimodal foundation models are better simulators of the human brain",
+    "authors": [
+      "Haoyu Lu",
+      "Qiongyi Zhou",
+      "Nanyi Fei",
+      "Zhiwu Lu",
+      "Mingyu Ding",
+      "Jingyuan Wen",
+      "Changde Du",
+      "Xin Zhao",
+      "Hao Sun",
+      "Huiguang He",
+      "Ji-Rong Wen"
+    ],
+    "summary": "Multimodal learning, especially large-scale multimodal pre-training, has\ndeveloped rapidly over the past few years and led to the greatest advances in\nartificial intelligence (AI). Despite its effectiveness, understanding the\nunderlying mechanism of multimodal pre-training models still remains a grand\nchallenge. Revealing the explainability of such models is likely to enable\nbreakthroughs of novel learning paradigms in the AI field. To this end, given\nthe multimodal nature of the human brain, we propose to explore the\nexplainability of multimodal learning models with the aid of non-invasive brain\nimaging technologies such as functional magnetic resonance imaging (fMRI).\nConcretely, we first present a newly-designed multimodal foundation model\npre-trained on 15 million image-text pairs, which has shown strong multimodal\nunderstanding and generalization abilities in a variety of cognitive downstream\ntasks. Further, from the perspective of neural encoding (based on our\nfoundation model), we find that both visual and lingual encoders trained\nmultimodally are more brain-like compared with unimodal ones. Particularly, we\nidentify a number of brain regions where multimodally-trained encoders\ndemonstrate better neural encoding performance. This is consistent with the\nfindings in existing studies on exploring brain multi-sensory integration.\nTherefore, we believe that multimodal foundation models are more suitable tools\nfor neuroscientists to study the multimodal signal processing mechanisms in the\nhuman brain. Our findings also demonstrate the potential of multimodal\nfoundation models as ideal computational simulators to promote both\nAI-for-brain and brain-for-AI research.",
+    "pdf_url": "http://arxiv.org/pdf/2208.08263v1",
+    "published": "2022-08-17"
+  },
+  "2309.10020v1": {
+    "title": "Multimodal Foundation Models: From Specialists to General-Purpose Assistants",
+    "authors": [
+      "Chunyuan Li",
+      "Zhe Gan",
+      "Zhengyuan Yang",
+      "Jianwei Yang",
+      "Linjie Li",
+      "Lijuan Wang",
+      "Jianfeng Gao"
+    ],
+    "summary": "This paper presents a comprehensive survey of the taxonomy and evolution of\nmultimodal foundation models that demonstrate vision and vision-language\ncapabilities, focusing on the transition from specialist models to\ngeneral-purpose assistants. The research landscape encompasses five core\ntopics, categorized into two classes. (i) We start with a survey of\nwell-established research areas: multimodal foundation models pre-trained for\nspecific purposes, including two topics -- methods of learning vision backbones\nfor visual understanding and text-to-image generation. (ii) Then, we present\nrecent advances in exploratory, open research areas: multimodal foundation\nmodels that aim to play the role of general-purpose assistants, including three\ntopics -- unified vision models inspired by large language models (LLMs),\nend-to-end training of multimodal LLMs, and chaining multimodal tools with\nLLMs. The target audiences of the paper are researchers, graduate students, and\nprofessionals in computer vision and vision-language multimodal communities who\nare eager to learn the basics and recent advances in multimodal foundation\nmodels.",
+    "pdf_url": "http://arxiv.org/pdf/2309.10020v1",
+    "published": "2023-09-18"
+  },
+  "2407.03418v1": {
+    "title": "HEMM: Holistic Evaluation of Multimodal Foundation Models",
+    "authors": [
+      "Paul Pu Liang",
+      "Akshay Goindani",
+      "Talha Chafekar",
+      "Leena Mathur",
+      "Haofei Yu",
+      "Ruslan Salakhutdinov",
+      "Louis-Philippe Morency"
+    ],
+    "summary": "Multimodal foundation models that can holistically process text alongside\nimages, video, audio, and other sensory modalities are increasingly used in a\nvariety of real-world applications. However, it is challenging to characterize\nand study progress in multimodal foundation models, given the range of possible\nmodeling decisions, tasks, and domains. In this paper, we introduce Holistic\nEvaluation of Multimodal Models (HEMM) to systematically evaluate the\ncapabilities of multimodal foundation models across a set of 3 dimensions:\nbasic skills, information flow, and real-world use cases. Basic multimodal\nskills are internal abilities required to solve problems, such as learning\ninteractions across modalities, fine-grained alignment, multi-step reasoning,\nand the ability to handle external knowledge. Information flow studies how\nmultimodal content changes during a task through querying, translation,\nediting, and fusion. Use cases span domain-specific challenges introduced in\nreal-world multimedia, affective computing, natural sciences, healthcare, and\nhuman-computer interaction applications. Through comprehensive experiments\nacross the 30 tasks in HEMM, we (1) identify key dataset dimensions (e.g.,\nbasic skills, information flows, and use cases) that pose challenges to today's\nmodels, and (2) distill performance trends regarding how different modeling\ndimensions (e.g., scale, pre-training data, multimodal alignment, pre-training,\nand instruction tuning objectives) influence performance. Our conclusions\nregarding challenging multimodal interactions, use cases, and tasks requiring\nreasoning and external knowledge, the benefits of data and model scale, and the\nimpacts of instruction tuning yield actionable insights for future work in\nmultimodal foundation models.",
+    "pdf_url": "http://arxiv.org/pdf/2407.03418v1",
+    "published": "2024-07-03"
+  },
+  "2501.18592v3": {
+    "title": "Advances in Multimodal Adaptation and Generalization: From Traditional Approaches to Foundation Models",
+    "authors": [
+      "Hao Dong",
+      "Moru Liu",
+      "Kaiyang Zhou",
+      "Eleni Chatzi",
+      "Juho Kannala",
+      "Cyrill Stachniss",
+      "Olga Fink"
+    ],
+    "summary": "In real-world scenarios, achieving domain adaptation and generalization poses\nsignificant challenges, as models must adapt to or generalize across unknown\ntarget distributions. Extending these capabilities to unseen multimodal\ndistributions, i.e., multimodal domain adaptation and generalization, is even\nmore challenging due to the distinct characteristics of different modalities.\nSignificant progress has been made over the years, with applications ranging\nfrom action recognition to semantic segmentation. Besides, the recent advent of\nlarge-scale pre-trained multimodal foundation models, such as CLIP, has\ninspired works leveraging these models to enhance adaptation and generalization\nperformances or adapting them to downstream tasks. This survey provides the\nfirst comprehensive review of recent advances from traditional approaches to\nfoundation models, covering: (1) Multimodal domain adaptation; (2) Multimodal\ntest-time adaptation; (3) Multimodal domain generalization; (4) Domain\nadaptation and generalization with the help of multimodal foundation models;\nand (5) Adaptation of multimodal foundation models. For each topic, we formally\ndefine the problem and thoroughly review existing methods. Additionally, we\nanalyze relevant datasets and applications, highlighting open challenges and\npotential future research directions. We maintain an active repository that\ncontains up-to-date literature at\nhttps://github.com/donghao51/Awesome-Multimodal-Adaptation.",
+    "pdf_url": "http://arxiv.org/pdf/2501.18592v3",
+    "published": "2025-01-30"
+  },
+  "2401.13697v1": {
+    "title": "Toward Robust Multimodal Learning using Multimodal Foundational Models",
+    "authors": [
+      "Xianbing Zhao",
+      "Soujanya Poria",
+      "Xuejiao Li",
+      "Yixin Chen",
+      "Buzhou Tang"
+    ],
+    "summary": "Existing multimodal sentiment analysis tasks are highly rely on the\nassumption that the training and test sets are complete multimodal data, while\nthis assumption can be difficult to hold: the multimodal data are often\nincomplete in real-world scenarios. Therefore, a robust multimodal model in\nscenarios with randomly missing modalities is highly preferred. Recently,\nCLIP-based multimodal foundational models have demonstrated impressive\nperformance on numerous multimodal tasks by learning the aligned cross-modal\nsemantics of image and text pairs, but the multimodal foundational models are\nalso unable to directly address scenarios involving modality absence. To\nalleviate this issue, we propose a simple and effective framework, namely TRML,\nToward Robust Multimodal Learning using Multimodal Foundational Models. TRML\nemploys generated virtual modalities to replace missing modalities, and aligns\nthe semantic spaces between the generated and missing modalities. Concretely,\nwe design a missing modality inference module to generate virtual modaliites\nand replace missing modalities. We also design a semantic matching learning\nmodule to align semantic spaces generated and missing modalities. Under the\nprompt of complete modality, our model captures the semantics of missing\nmodalities by leveraging the aligned cross-modal semantic space. Experiments\ndemonstrate the superiority of our approach on three multimodal sentiment\nanalysis benchmark datasets, CMU-MOSI, CMU-MOSEI, and MELD.",
+    "pdf_url": "http://arxiv.org/pdf/2401.13697v1",
+    "published": "2024-01-20"
+  }
+}
