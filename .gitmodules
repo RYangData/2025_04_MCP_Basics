@@ -1,0 +1,3 @@
+[submodule "2_Hugging_Face_MCP_Course"]
+	path = 2_Hugging_Face_MCP_Course
+	url = https://github.com/huggingface/mcp-course.git
